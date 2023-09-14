@@ -41,6 +41,18 @@ header div ul li {
     margin-left: 25px;
 }
 
+nav{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+
+nav li{
+    display: inline;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -75,7 +87,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -201,7 +213,7 @@ footer h2 {
 
 
 @media screen and (max-width: 768px) {
-.nav {
+nav, main {
       flex-direction: column;
     }
   }
